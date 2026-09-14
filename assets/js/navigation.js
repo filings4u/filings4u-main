@@ -98,6 +98,9 @@ window.FILINGS4U_NAV_TARGET = window.FILINGS4U_NAV_TARGET || "filings4u-global-n
           <a href="logo-design-packages"
              data-wizard-service-link
              data-service="logo-design-packages">Logo Design Packages</a>
+          <a href="domain-name-registration.html"
+             data-wizard-service-link
+             data-service="domain-name-registration">Domain Name Registration</a>
         </div>
 
         <div class="mega-column">

@@ -8,6 +8,53 @@
   window.CENTRAL_SERVICE_PLAN_DB = window.CENTRAL_SERVICE_PLAN_DB || {};
 
   const specialtyPackagePayload = {
+    "domain-name-registration": {
+      name: "Domain Name Registration",
+      category: "digital-presence",
+      requiresJurisdiction: false,
+      starter: 49.00,
+      compliance: 99.00,
+      enterprise: 149.00,
+      tierLabels: {
+        starter: "Essential",
+        compliance: "Protected",
+        enterprise: "Business"
+      },
+      tierDescriptions: {
+        starter: "Register one domain with guided setup",
+        compliance: "Registration plus privacy and DNS setup support",
+        enterprise: "Business-ready domain setup with advanced configuration"
+      },
+      bullets: {
+        starter: [
+          "Domain availability review",
+          "Registration request for 1 domain",
+          "Registrant contact intake",
+          "1-year registration setup",
+          "Basic DNS / nameserver setup",
+          "Registration confirmation and record"
+        ],
+        compliance: [
+          "Everything in Essential",
+          "Domain privacy setup when available",
+          "Custom nameserver or DNS configuration",
+          "Up to 3 alternate domain choices",
+          "Auto-renew preference setup",
+          "Email-forwarding DNS guidance",
+          "30 days setup support"
+        ],
+        enterprise: [
+          "Everything in Protected",
+          "Priority registration handling",
+          "Up to 5 alternate domain choices",
+          "Business DNS record configuration",
+          "Website and email connection support",
+          "Domain transfer / existing-domain review",
+          "60 days setup support"
+        ]
+      }
+    },
+
     "web-design-packages": {
       name: "Web Design Packages",
       category: "design",

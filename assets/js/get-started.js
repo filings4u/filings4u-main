@@ -120,6 +120,12 @@
           icon:"LOGO",
           title:"Logo Design Packages",
           desc:"Professional logo development with tiered concepts, revisions, vector assets, and brand support."
+        },
+        {
+          slug:"domain-name-registration",
+          icon:"DOM",
+          title:"Domain Name Registration",
+          desc:"Register and configure a business domain with guided availability, contact, privacy, renewal, and DNS setup."
         }
       ]
     },
