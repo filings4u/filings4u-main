@@ -16,7 +16,7 @@
       <div class="container footer-grid">
 
         <div class="footer-brand">
-          <img src="images/logo-white.png" alt="filings4u">
+          <img src="images/logo2.png" alt="filings4u">
           <p>
             Business formation, tax registration, compliance, and DOT fleet
             support—organized around one clearer experience.
