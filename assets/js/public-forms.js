@@ -83,6 +83,14 @@
       if (!validate(form)) return;
       if (!config.submitEndpoint) return setStatus(form, "error", "The submission service is not configured.");
 
+      const turnstileWidget = form.querySelector(".cf-turnstile");
+      const turnstileToken = form.querySelector('[name="cf-turnstile-response"]')?.value?.trim() || "";
+      const turnstileAction = turnstileWidget?.dataset.action || "";
+      if (!turnstileToken || !turnstileAction) {
+        setStatus(form, "error", "Please complete the security verification before submitting.");
+        return;
+      }
+
       const submit = form.querySelector("[type=submit]");
       const original = submit?.textContent;
       if (submit) { submit.disabled = true; submit.textContent = "Submitting…"; }
@@ -98,6 +106,8 @@
           website: form.querySelector('[name="website"]')?.value || "",
           pageUrl: location.href,
           submittedAt: new Date().toISOString(),
+          turnstileToken,
+          turnstileAction,
           answers: serialize(form)
         };
 
@@ -118,6 +128,9 @@
         console.error("Public form submission error", error);
         setStatus(form, "error", "We could not submit your application. Please review your connection and try again. If the problem continues, contact Filings4u.");
       } finally {
+        if (window.turnstile && turnstileWidget) {
+          try { window.turnstile.reset(turnstileWidget); } catch (_) {}
+        }
         if (submit) { submit.disabled = false; submit.textContent = original || "Submit application"; }
       }
     });
