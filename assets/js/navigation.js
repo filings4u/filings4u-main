@@ -126,6 +126,8 @@ window.FILINGS4U_NAV_TARGET = window.FILINGS4U_NAV_TARGET || "filings4u-global-n
           <a href="owner-operators.html">Owner Operators</a>
           <a href="trucker-authority.html">Trucker Authority</a>
           <a href="broker-authority.html">Broker Authority</a>
+          <a href="motor-carrier-mc-number-reinstatement.html">Motor Carrier MC Reinstatement</a>
+          <a href="broker-mc-number-reinstatement.html">Broker MC Reinstatement</a>
         </div>
 
         <div class="mega-column">
@@ -135,6 +137,7 @@ window.FILINGS4U_NAV_TARGET = window.FILINGS4U_NAV_TARGET || "filings4u-global-n
           <a href="process-agents-boc-3.html">Process Agent (BOC-3)</a>
           <a href="boc-3-amendment.html">BOC-3 Amendment</a>
           <a href="mcs-150-update.html">MCS-150 Update</a>
+          <a href="name-change.html">FMCSA Name Change</a>
           <a href="new-entrant-audit.html">New Entrant Audit</a>
         </div>
 

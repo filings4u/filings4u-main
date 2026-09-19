@@ -5,6 +5,9 @@ window.CENTRAL_SERVICE_PLAN_DB = window.CENTRAL_SERVICE_PLAN_DB || {};
 window.FILINGS4U_GOVERNMENT_PRICING = window.FILINGS4U_GOVERNMENT_PRICING || {
     "trucker-authority": 300.00,       /* Standard FMCSA regulatory application tariff */
     "broker-authority": 300.00,        /* Standard FMCSA broker processing tariff */
+    "motor-carrier-mc-number-reinstatement": 80.00, /* FMCSA operating authority reinstatement fee */
+    "broker-mc-number-reinstatement": 80.00,        /* FMCSA operating authority reinstatement fee */
+    "name-change": 14.00,                           /* FMCSA operating authority name change fee */
     "heavy-use-tax": 0.00,             /* Form 2290 baseline processing tariff code */
     "hazmat-registration": 0.00,       /* Baseline hazardous materials data allocation */
     "llc-formation": 0.00,             /* Overridden contextually by state-pricing.js matrices */
@@ -177,6 +180,46 @@ const regulatoryPackagePayload = {
     starter: ["Basic audit prep", "Required safety documentation verification lists"],
     compliance: ["Everything in Starter (Plus)", "Plus Mock audit review", "Performance error pattern mitigation updates"],
     enterprise: ["Everything in Compliance (Plus)", "Plus Corrective Action Plan", "Direct regulatory liaison representation services"]
+  }
+},
+
+"motor-carrier-mc-number-reinstatement": {
+  name: "Motor Carrier MC Number Reinstatement",
+  starter: 99.00,
+  compliance: 179.00,
+  enterprise: 299.00,
+  governmentFee: 80.00,
+  governmentFeeLabel: "FMCSA reinstatement fee",
+  bullets: {
+    starter: ["Authority status review", "Reinstatement filing preparation"],
+    compliance: ["Everything in Starter (Plus)", "FMCSA record consistency review", "Submission status follow-up"],
+    enterprise: ["Everything in Compliance (Plus)", "Priority document review", "Post-filing activation checklist"]
+  }
+},
+"broker-mc-number-reinstatement": {
+  name: "Broker MC Number Reinstatement",
+  starter: 99.00,
+  compliance: 179.00,
+  enterprise: 299.00,
+  governmentFee: 80.00,
+  governmentFeeLabel: "FMCSA reinstatement fee",
+  bullets: {
+    starter: ["Broker authority status review", "Reinstatement filing preparation"],
+    compliance: ["Everything in Starter (Plus)", "FMCSA record consistency review", "Submission status follow-up"],
+    enterprise: ["Everything in Compliance (Plus)", "Priority document review", "Authority reactivation checklist"]
+  }
+},
+"name-change": {
+  name: "FMCSA Name Change",
+  starter: 59.00,
+  compliance: 99.00,
+  enterprise: 149.00,
+  governmentFee: 14.00,
+  governmentFeeLabel: "FMCSA name change fee",
+  bullets: {
+    starter: ["FMCSA record review", "Name change filing preparation"],
+    compliance: ["Everything in Starter (Plus)", "Authority record consistency review", "Submission status follow-up"],
+    enterprise: ["Everything in Compliance (Plus)", "Priority document review", "Related carrier record checklist"]
   }
 },
 "mcs-150-update": {

@@ -68,9 +68,15 @@
       </article>`;
   }).join("");
 
-  const note = requiresJurisdiction
+  const governmentFee = Number(plan.governmentFee || 0);
+  const governmentFeeLabel = String(plan.governmentFeeLabel || "government filing fee");
+  const feeDisclosure = governmentFee > 0
+    ? ` <strong>Government fee:</strong> $${governmentFee.toFixed(2)} ${governmentFeeLabel}, charged separately from the filings4u service fee.`
+    : "";
+
+  const note = (requiresJurisdiction
     ? "<strong>State-priced service:</strong> After you choose a package, select the filing state before entering the secure application."
-    : "<strong>Government/specialty service:</strong> No filing-state selection is required.";
+    : "<strong>Government/specialty service:</strong> No filing-state selection is required.") + feeDisclosure;
 
   root.innerHTML = `
     <div class="service-pricing-head">

@@ -26,6 +26,9 @@ const services = {
   fleet: [
     ["Owner Operators", "Compliance support tailored to independent motor carriers and owner-operators.", "owner-operators.html", "OO"],
     ["Trucker Authority", "Guidance and filing support for motor carrier operating authority.", "trucker-authority.html", "MC"],
+    ["Motor Carrier MC Reinstatement", "Restore eligible motor carrier operating authority and return the filing to an active path.", "motor-carrier-mc-number-reinstatement.html", "MR"],
+    ["Broker MC Reinstatement", "Restore eligible broker operating authority with a guided FMCSA reinstatement workflow.", "broker-mc-number-reinstatement.html", "BR"],
+    ["FMCSA Name Change", "Update the business name associated with FMCSA operating authority records.", "name-change.html", "NC"],
     ["UCR Registration", "Complete Unified Carrier Registration requirements for interstate operations.", "ucr-registration.html", "UCR"],
     ["DOT Consortium", "Support for drug and alcohol testing consortium compliance.", "dot-consortium.html", "DOT"],
     ["Process Agent (BOC-3)", "File BOC-3 process agent designation for operating authority compliance.", "process-agents-boc-3.html", "B3"],

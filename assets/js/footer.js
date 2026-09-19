@@ -45,6 +45,9 @@
           <h3>DOT &amp; Fleet</h3>
           <a href="owner-operators.html">Owner Operators</a>
           <a href="trucker-authority.html">Trucker Authority</a>
+          <a href="motor-carrier-mc-number-reinstatement.html">MC Reinstatement</a>
+          <a href="broker-mc-number-reinstatement.html">Broker Reinstatement</a>
+          <a href="name-change.html">FMCSA Name Change</a>
           <a href="ucr-registration.html">UCR Registration</a>
           <a href="dot-consortium.html">DOT Consortium</a>
           <a href="process-agents-boc-3.html">BOC-3 Filing</a>
