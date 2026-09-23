@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>filings4u Blog</title>
+  <link>https://filings4u.com/blog.html</link>
+  <description>Business formation, compliance, tax registration, and DOT &amp; fleet insights from filings4u.</description>
+  <language>en-us</language>
+    <item>
+    <title>How to Form an LLC: A Practical Filing and Compliance Roadmap</title>
+    <link>https://filings4u.com/blog/how-to-form-an-llc-filing-compliance-roadmap.html</link>
+    <guid isPermaLink="true">https://filings4u.com/blog/how-to-form-an-llc-filing-compliance-roadmap.html</guid>
+    <pubDate>Thu, 10 Sep 2026 21:46:48 +0000</pubDate>
+    <category>Business Formation</category>
+    <description>A practical guide to moving from an LLC idea to an organized filing, EIN, internal records, and ongoing compliance calendar.</description>
+  </item>  <item>
+    <title>EIN Basics: When a Business Needs a Federal Tax ID and What Comes Next</title>
+    <link>https://filings4u.com/blog/ein-basics-federal-tax-id-business.html</link>
+    <guid isPermaLink="true">https://filings4u.com/blog/ein-basics-federal-tax-id-business.html</guid>
+    <pubDate>Thu, 10 Sep 2026 21:38:28 +0000</pubDate>
+    <category>Tax &amp; Registration</category>
+    <description>Understand what an EIN is, when businesses commonly use one, what information to organize, and how it fits into your wider registration workflow.</description>
+  </item>  <item>
+    <title>Annual Reports and Good Standing: How to Build a Reliable Compliance Calendar</title>
+    <link>https://filings4u.com/blog/annual-reports-good-standing-compliance-calendar.html</link>
+    <guid isPermaLink="true">https://filings4u.com/blog/annual-reports-good-standing-compliance-calendar.html</guid>
+    <pubDate>Thu, 10 Sep 2026 21:38:28 +0000</pubDate>
+    <category>Business Compliance</category>
+    <description>Annual reports are recurring obligations, not one-time paperwork. Learn how to track due dates, entity changes, confirmations, and good-standing records.</description>
+  </item>  <item>
+    <title>Starting Interstate Trucking: USDOT, Operating Authority, BOC-3 and UCR in One Roadmap</title>
+    <link>https://filings4u.com/blog/starting-interstate-trucking-usdot-authority-boc3-ucr-roadmap.html</link>
+    <guid isPermaLink="true">https://filings4u.com/blog/starting-interstate-trucking-usdot-authority-boc3-ucr-roadmap.html</guid>
+    <pubDate>Thu, 10 Sep 2026 21:38:28 +0000</pubDate>
+    <category>DOT &amp; Fleet</category>
+    <description>A high-level roadmap for organizing federal motor-carrier registrations and related compliance before an interstate trucking operation begins.</description>
+  </item>  <item>
+    <title>New Entrant Audit Readiness: Building a Safety Record Before the Review</title>
+    <link>https://filings4u.com/blog/new-entrant-audit-readiness-safety-record.html</link>
+    <guid isPermaLink="true">https://filings4u.com/blog/new-entrant-audit-readiness-safety-record.html</guid>
+    <pubDate>Fri, 11 Sep 2026 11:09:48 +0000</pubDate>
+    <category>DOT &amp; Fleet</category>
+    <description>New motor carriers should build audit-ready safety records from day one. Use this framework to organize drivers, vehicles, hours, testing, and documentation.</description>
+  </item>
+</channel>
+</rss>
