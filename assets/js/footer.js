@@ -58,7 +58,7 @@
           <a href="about.html">About</a>
           <a href="index.html#resources">Resources</a>
           <a href="contact.html">Contact Experts</a>
-          <a href="https://portal.filings4u.com/portal-login.html">Client Portal</a>
+          <a href="https://portal.filings4u.com/customer-login.html">Client Portal</a>
           <a href="blog.html">Blog</a>
         </div>
 
