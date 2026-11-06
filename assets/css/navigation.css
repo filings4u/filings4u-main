@@ -1,7 +1,7 @@
 /* Global navigation — visually matched to the new filings4u shell */
 #filings4u-global-navigation-root{position:relative;z-index:1000}
 .global-site-header{position:sticky;top:0;z-index:1000;background:rgba(255,255,255,.94);backdrop-filter:blur(16px);border-bottom:1px solid rgba(226,232,240,.88)}
-.nav-content-wrapper{width:min(1180px,calc(100% - 40px));height:82px;margin-inline:auto;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.nav-content-wrapper{width:min(1450px,calc(100% - 40px));height:82px;margin-inline:auto;display:flex;align-items:center;justify-content:space-between;gap:24px}
 .logo-link{display:flex;align-items:center;flex:0 0 auto}.logo-link .logo{width:164px;height:auto;display:block}
 .nav-links{display:flex;align-items:center;justify-content:flex-end;gap:20px;font-size:.88rem;font-weight:700;color:#334155;min-width:0}
 .nav-item-dropdown{position:relative}.dropdown-toggle{display:flex;align-items:center;gap:6px;padding:30px 0;color:#334155;white-space:nowrap}.dropdown-toggle:hover{color:#0e9f6e}.arrow-indicator{font-size:.72rem;color:#94a3b8;transition:transform .2s ease}
