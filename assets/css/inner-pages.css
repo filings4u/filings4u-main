@@ -63,7 +63,7 @@
 .contact-form textarea{min-height:140px;resize:vertical}
 .contact-form .full{grid-column:1/-1}
 
-.legal-wrap{max-width:880px}
+.legal-wrap{max-width:1450px}
 .legal-wrap h2{font:800 1.7rem Manrope;color:var(--navy);margin-top:34px}
 .legal-wrap p,.legal-wrap li{color:var(--slate);line-height:1.75}
 
